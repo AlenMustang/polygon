@@ -1,0 +1,45 @@
+:root {
+  --primary: white;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.gumb-default {
+  background-color: var(--primary);
+  color: #1d1d1d;
+}
+
+.gumb-outline {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.2s ease-out;
+}
+
+.gumb-srendji {
+  font-size: 20px;
+  padding: 8px 20px;
+}
+.gumb-velik {
+  font-size: 30px;
+  padding: 10px 24px;
+}
+
+.gumb-majhen {
+  font-size: 18px;
+  padding: 6px 18px;
+}
+
+.gumb-majhen:hover,
+.gumb-srendji:hover,
+.gumb-velik:hover {
+  background: #05999b;
+  color: #1d1d1d;
+  transition: all 0.2s ease-out;
+}
